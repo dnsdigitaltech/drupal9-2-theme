@@ -1,0 +1,18 @@
+name: Demo
+description: Drupal 8 Starter Theme
+type: theme
+version: VERSION
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: stable
+screenshot: screenshot.png
+
+regions:
+  slider: slider
+  hearder: header
+  content: content
+  sidebar_first: Sider First
+
+libraries: 
+  demo/global-styling
+
